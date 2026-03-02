@@ -14,11 +14,43 @@
 
   ## Хід роботи
   1) Вивчила основи синтаксису текстів програм в Python 3
-# Print "Hello World!"
-print("Hello World!")
-# Print "Have a good day."
-print("Have a good day.")
-# Print "Learning Python is fun!"
-print("Learning Python is fun!")
+`# Print "Hello World!"`
+`print("Hello World!")`
+`# Print "Have a good day."`
+`print("Have a good day.")`
+`# Print "Learning Python is fun!"`
+`print("Learning Python is fun!")`
   2) Розглянула поняття змінних в Python 3 та засвоїла їх прості типи.
-
+`# Create variable x with value 5`
+`x = 5`
+`# Create variable y with value "John"`
+`y = "John"`
+`# Print the type of x`
+`print(type(x))`
+  3)  Розглянула поняття динамічної типізації.
+Динамічна типізація — це коли тип змінної в Python визначається автоматично під час виконання програми, і його не потрібно задавати вручну.
+  4) Навчилася здійснювати базові операції та приведення типів. Розв’язала приклад згідно виданого завдання.
+Базові операції в Python: додавання: +, віднімання: -, множення: *, ділення: /, степінь: **, цілочисельне ділення: //. 
+`a = 16`
+`b = 8`
+`print(a + b, a - b, a * b, a / b, a ** b, a // b)`
+Приведення типів — це зміна одного типу даних на інший.
+`a = 125`
+`print(str(a), int(a), float(a))`
+  5) Ознайомитися з типом “List”. Навчитися задавати та зчитувати значення їх елементів. Розв’язати приклад.
+`mylist = ["cola", "pepsi", "sprite", "coffee", "tea"]`
+`print (mylist)`
+`print (len(mylist))`
+  6) Ознайомилася з основними операторами мови Python 3. Розв’язати завдання.
+`# Create variables`
+`a = 15`
+`b = 4`
+`# Print modulus`
+`print(a % b)`
+`# Print floor division`
+`print(a // b)`
+`# Print power`
+`print(a ** b)`
+`# Add 10 to a`
+`print("a += 10")`
+  7) Навчитися основам форматування стрічок і текстового виводу.
