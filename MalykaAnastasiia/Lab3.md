@@ -18,50 +18,89 @@
 Суть структурного програмування — це підхід до написання програм, при якому код будується логічно, зрозуміло і без «хаосу». Його головна мета — зробити програму простою для читання, перевірки та виправлення.
 
   2) Навчитися використовувати умовні оператори.
+
 `# Create age variable`
+
 `age = 20`
+
 `# Write if/elif/else`
+
 `if age < 13:`
+
 ` print("Child")`
+
 `elif age < 18:`
+
 ` print("Teenager")`
+
 `else:`
+
 ` print("Adult")`
 
   3) Познайомитися з операторами булевої логіки в Python 3.
+
 `# Print the result of 10 > 9`
+
 `print(10 > 9)`
+
 `# Print the result of 10 == 9`
+
 `print(10 == 9)`
+
 `# Print the result of bool("Hello")`
+
 `print(bool("Hello"))`
+
 `# Print the result of bool(0)`
+
 `print(bool(0))`
 
   4) Навчитися проектувати складні умови.
+
 `score = 55`
+
 `absences = 2`
+
 `permission = False`
+
 `if (score >= 60 and absences < 3) or permission == True:`
+
 `    print("Допущено")`
+
 `else:`
+
 `    print("Не допущено")`
 
   5) Опанувати методи роботи з циклами. Навчитися визначати доцільність застосування різних типів циклів залежно від поставленої задачі.
+
 Цикл while:
+
 `# Create the i variable`
+
 `i = 0`
+
 `# While loop: print 1-5, skip 3 with continue`
+
 `while i < 6:`
+
 ` print(i)`
+
 ` if i == 3:`
+
 `  continue `
+
 ` i += 1`
+
 Цикл for:
+
 `# Create the fruits list`
+
 `fruits = ["apple", "banana", "cherry"]`
+
 `# Loop through fruits, break at "banana"`
+
 `for x in fruits:`
+
 ` if fruits == "banana": break`
 
   ##Висновок
