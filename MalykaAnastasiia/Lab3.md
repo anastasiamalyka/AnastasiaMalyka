@@ -103,6 +103,44 @@
 
 ` if fruits == "banana": break`
 
+  6)Додаткове завдання з task2-if (8 варіант)
+
+1. `from math import sin, cos, log`
+
+`x = float(input("enter x: "))`
+
+`a = sin(x)`
+
+`b = cos(x)`
+
+`if x > 0:`
+
+`    c = log(x)`
+    
+`    nums = [a, b, c]`
+    
+`else:`
+
+`    print("ln(x) не має змісту")`
+    
+`    nums = [a, b]`
+    
+`nums.sort()`
+
+`print("У порядку зростання:", nums)`
+
+2. `x = float(input("Введіть х: "))`
+
+`if x <= 2:`
+
+`    F = x**2 + 4*x + 5`
+    
+`else:`
+
+`    F = 1 / (x**2 + 4*x + 5)`
+
+`print("F(x) = ", F)`
+
   ##Висновок
   
 1. Засвоїла суть структурного програмування.
