@@ -103,7 +103,7 @@
 
 ` if fruits == "banana": break`
 
-  6)Додаткове завдання з task2-if (8 варіант)
+  6) Додаткове завдання з task2-if (8 варіант)
 
 1. `from math import sin, cos, log`
 
